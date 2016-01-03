@@ -107,6 +107,7 @@ textarea {
   height : 100px;
 }
 
+
 @media screen and (min-width : 1024px){
   #input {
     height: 150px;
