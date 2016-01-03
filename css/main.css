@@ -111,45 +111,61 @@ textarea {
   #input {
     height: 150px;
     margin-top : 100px;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 200px;
+    margin-right: 200px;
   }
 }
 
 @media screen and (min-width : 768px) and (max-width : 1024px){
+  #message {
+    height: 150px;
+  }
   #input {
     height: 150px;
     margin-top: 100px;
-    margin-left : 250px;
-    margin-right : 250px;
+    margin-left : 200px;
+    margin-right : 200px;
   }
   }
 
 
 @media screen and (min-width: 640px) and (max-width: 768px) {
+  #message {
+    height: 150px;
+  }
+
   #input {
       height: 150px;
-      margin-top : 100px;
-      margin-left : 300px;
-      margin-right: 300px;
+      margin-top : 50px;
+      margin-left : 150px;
+      margin-right: 150px;
   }
 }
 
 @media screen and (min-width: 400px) and (max-width: 640px) {
+  #message {
+    height: 150px;
+  }
+
+
   #input {
-      height: 150px;
-      margin-top : 100px;
-      margin-left : 100px;
-      margin-right: 100px;
+      height: 100px;
+      margin-top : 10px;
+      margin-left : 50px;
+      margin-right: 50px;
   }
 }
 
 @media screen and (min-width: 200px) and (max-width: 400px) {
+  #message {
+    height : 150px;
+  }
+
   #input {
-      height: 150px;
-      margin-top : 100px;
-      margin-left : 20px;
-      margin-right: 20px;
+      height: 100px;
+      margin-top : 10px;
+      margin-left : 0px;
+      margin-right: 0px;
   }
 }
 
